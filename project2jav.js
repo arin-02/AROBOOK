@@ -87,7 +87,7 @@ function submitform(e) {
     if (displayvala.validate(bookie)) {
 
         displayvala.add(bookie);
-        // displayvala.clear();
+        displayvala.clear();
         displayvala.show("success", "your book has been successfully added");
     }
     else {
